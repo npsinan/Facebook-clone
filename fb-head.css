@@ -1,0 +1,115 @@
+.heading {
+    display: grid;
+    justify-items: space-between;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 56px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.108);
+
+}
+
+.h-left {
+    display: flex;
+    align-items: center;
+}
+
+.h-left input {
+
+    height: 40px;
+    width: 200px;
+    padding-left: 25px;
+    align-content: center;
+}
+
+.fb {
+    font-size: 35px;
+    margin: 0 20px;
+    color: #0866ff;
+}
+
+.ico {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    color: gray;
+
+}
+
+.icon1 {
+    font-size: 33px;
+    width: 35;
+    height: 33px;
+}
+
+.h-center {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.h-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.pro {
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    margin-left: 10px;
+}
+
+.h-right svg,
+.h-right .lord-icon {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.right-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.noti {
+    position: relative;
+}
+
+.noti:after {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    content: "2";
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #d80202;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.home{
+    position: relative;
+}
+.home::after{
+    content: "";
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    left: -20px;
+    bottom: -15px;
+    background-color: blue;
+    text-align: center;
+}

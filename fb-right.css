@@ -1,0 +1,69 @@
+.right {
+    margin: 20px 0 10px 20px;
+    padding-left: 10px;
+    position: fixed;
+    overflow: auto;
+  
+}
+
+
+.wish {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(188, 187, 187);
+
+}
+
+.bday i {
+    color: blue;
+    font-size: 28px;
+}
+
+.bday p {
+    font-size: 12px;
+}
+
+.c-head {
+    display: grid;
+    grid-template-columns: 1fr 25px 25px;
+    margin: 10px 0;
+}
+
+.c-details {
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    column-gap: 20px;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    transition: 0.2s ease-in-out ;
+}
+.c-details:hover{
+    background-color: #e4e6e9;
+}
+
+.c-details p {
+    padding-top: 5px;
+}
+
+.c-details img {
+    width: 100%;
+    border-radius: 19px;
+    /* margin-bottom: 10px; */
+ 
+}
+
+.c-details::after {
+    content: "";
+    position: absolute;
+    width: 7px; 
+    height: 7px; 
+    border: 2px solid #fff;
+    border-radius: 50%; 
+    background-color: #08dc3a;
+    bottom: 5px;
+    left: 33px;
+    z-index: 3;
+}

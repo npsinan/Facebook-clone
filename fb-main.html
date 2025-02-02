@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb-head.css">
+    <link rel="stylesheet" href="fb-left.css">
+    <link rel="stylesheet" href="fb-main.css">
+    <link rel="stylesheet" href="fb-right.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/c36d8e4980.js" crossorigin="anonymous"></script>
+    <link href="./icons/fb1.png" type="x-icon" rel="icon" >
+</head>
+
+<body>
+    <div class="title">
+        <div class="head">
+            <div class="heading">
+                <div class="h-left">
+                    <i class="fa-brands fa-facebook fb"></i>
+                    <i class="fa-solid fa-magnifying-glass ico"></i>
+                    <input type="text" placeholder="Search Facebook">
+
+                </div>
+                <div class="h-center">
+
+                    <lord-icon src="https://cdn.lordicon.com/wmwqvixz.json" class="lord-icon home" trigger="morph"
+                        state="morph-home-3" colors="primary:#0866ff" style="width:35px;height:33px;">
+                    </lord-icon>
+
+                    <lord-icon src="https://cdn.lordicon.com/uwtqzoif.json" class="lord-icon" trigger="hover"
+                        state="hover-videocam-2" style="width:35px;height:33px;">
+                    </lord-icon>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                        stroke="currentColor" className="w-6 h-6" width="35px" height="33px">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                        stroke="currentColor" className="w-6 h-6" width="35px" height="33px">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                    </svg>
+                    <i class="fa-solid fa-gamepad icon1"></i>
+
+                </div>
+                <div class="h-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="right-icon">
+                        <path
+                            d="M12.5 6C12.5 6.27614 12.2761 6.5 12 6.5C11.7239 6.5 11.5 6.27614 11.5 6C11.5 5.72386 11.7239 5.5 12 5.5C12.2761 5.5 12.5 5.72386 12.5 6Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M12.5 12C12.5 12.2761 12.2761 12.5 12 12.5C11.7239 12.5 11.5 12.2761 11.5 12C11.5 11.7239 11.7239 11.5 12 11.5C12.2761 11.5 12.5 11.7239 12.5 12Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M18.5 6C18.5 6.27614 18.2761 6.5 18 6.5C17.7239 6.5 17.5 6.27614 17.5 6C17.5 5.72386 17.7239 5.5 18 5.5C18.2761 5.5 18.5 5.72386 18.5 6Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M18.5 12C18.5 12.2761 18.2761 12.5 18 12.5C17.7239 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.7239 11.5 18 11.5C18.2761 11.5 18.5 11.7239 18.5 12Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M6.5 6C6.5 6.27614 6.27614 6.5 6 6.5C5.72386 6.5 5.5 6.27614 5.5 6C5.5 5.72386 5.72386 5.5 6 5.5C6.27614 5.5 6.5 5.72386 6.5 6Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M6.5 12C6.5 12.2761 6.27614 12.5 6 12.5C5.72386 12.5 5.5 12.2761 5.5 12C5.5 11.7239 5.72386 11.5 6 11.5C6.27614 11.5 6.5 11.7239 6.5 12Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M12.5 18C12.5 18.2761 12.2761 18.5 12 18.5C11.7239 18.5 11.5 18.2761 11.5 18C11.5 17.7239 11.7239 17.5 12 17.5C12.2761 17.5 12.5 17.7239 12.5 18Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M18.5 18C18.5 18.2761 18.2761 18.5 18 18.5C17.7239 18.5 17.5 18.2761 17.5 18C17.5 17.7239 17.7239 17.5 18 17.5C18.2761 17.5 18.5 17.7239 18.5 18Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M6.5 18C6.5 18.2761 6.27614 18.5 6 18.5C5.72386 18.5 5.5 18.2761 5.5 18C5.5 17.7239 5.72386 17.5 6 17.5C6.27614 17.5 6.5 17.7239 6.5 18Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+
+                    <svg fill="none" viewBox="0 0 24 24" class="right-icon">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M12 18.25C15.5 18.25 19.25 16.5 19.25 12C19.25 7.5 15.5 5.75 12 5.75C8.5 5.75 4.75 7.5 4.75 12C4.75 13.0298 4.94639 13.9156 5.29123 14.6693C5.50618 15.1392 5.62675 15.6573 5.53154 16.1651L5.26934 17.5635C5.13974 18.2547 5.74527 18.8603 6.43651 18.7307L9.64388 18.1293C9.896 18.082 10.1545 18.0861 10.4078 18.1263C10.935 18.2099 11.4704 18.25 12 18.25Z">
+                        </path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.5 12C9.5 12.2761 9.27614 12.5 9 12.5C8.72386 12.5 8.5 12.2761 8.5 12C8.5 11.7239 8.72386 11.5 9 11.5C9.27614 11.5 9.5 11.7239 9.5 12Z">
+                        </path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M12.5 12C12.5 12.2761 12.2761 12.5 12 12.5C11.7239 12.5 11.5 12.2761 11.5 12C11.5 11.7239 11.7239 11.5 12 11.5C12.2761 11.5 12.5 11.7239 12.5 12Z">
+                        </path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.5 12C15.5 12.2761 15.2761 12.5 15 12.5C14.7239 12.5 14.5 12.2761 14.5 12C14.5 11.7239 14.7239 11.5 15 11.5C15.2761 11.5 15.5 11.7239 15.5 12Z">
+                        </path>
+                    </svg>
+
+                    <lord-icon src="https://cdn.lordicon.com/lznlxwtc.json" class="lord-icon noti" trigger="hover"
+                        style="width:35px;height:35px;">
+                    </lord-icon>
+                    <img src="./icons/me.jpg" alt="" class="pro">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="left-section">
+            <div class="father">
+                <div class="son">
+                    <div class="menu">
+                        <div class="menu-section">
+                            <img src="./icons/me.jpg" alt="" class="pro">
+                            <p><b>Sinan NP</b></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <i class="fa-solid fa-user-group fa-lg por1"></i>
+                            <p>Friends</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <i class="fa-solid fa-users-line fa-lg por1"></i>
+                            <p>Groups</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <i class="fa-solid fa-clock-rotate-left fa-lg por1"></i>
+                            <p>Memomeries</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <i class="fa-solid fa-bookmark fa-lg por1"></i>
+                            <p>Saved</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <span class="material-symbols-outlined por1">
+                                smart_display
+                            </span>
+                            <p>Videos</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-section">
+                            <i class="fa-solid fa-chevron-down por1"></i>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="center-section">
+            <div class="story">
+                <div class="story-container">
+                    <img src="./icons/me.jpg" alt="" class="me">
+                    <div class="img-description">
+                        <div class="plus">
+                        </div>
+                        <p>Create story</p>
+                    </div>
+                </div>
+                <div class="story-container">
+                    <img src="./icons/profile (19).jpg" alt="" class="mini-pro" >
+                    <img src="./icons/status (1).jpg" alt="" class="status-img">
+                    <div class="img-description">
+                        <p>Azeez Kurumathur</p>
+                    </div>
+                </div>
+                <div class="story-container">
+                    <img src="./icons/profile (18).jpg" alt="" class="mini-pro">
+                    <img src="./icons/status (2).jpg" alt="" class="status-img" >
+                    <div class="img-description">
+                        <p>Anakomban</p>
+                    </div>
+                </div>
+                <div class="story-container">
+                    <img src="./icons/profile (17).jpg" alt="" class="mini-pro">
+                    <img src="./icons/status (3).jpg" alt="" class="status-img">
+                    <div class="img-description">
+                        <p>Safwan NP</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mind">
+                <div class="type-div">
+                    <img src="./icons/me.jpg" alt="" width="40px" height="40px">
+                    <input type="text" placeholder="What's on your mind, sinan?">
+                </div>
+
+                <div class="reaction-div">
+                    <div class="emote">
+                        <img src="./icons/rec.png" width="24px" height="24px">
+                        <p>Live video</p>
+                    </div>
+
+                    <div class="emote">
+                        <img src="./icons/vid.png" width="24px" height="24px">
+                        <p>Photo/video</p>
+                    </div>
+
+                    <div class="emote">
+                        <img src="./icons/smile.png" width="24px" height="24px">
+                        <p>Feeling/activity</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (20).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Mammootty</h4>
+                            <p>32 m·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>Wishing Everyone a Merry Christmas 😊</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (4).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Suhail Ismail, Za Ak and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (1).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Abhishek Raj</h4>
+                            <p>1 d·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>The importance of smaller steps</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (1).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Abhi, Shanu and 15K others
+                        </p>
+                        <p>6K comments 800 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (2).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Shuhaib</h4>
+                            <p>1 d·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>A programmer</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (2).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Aysha zahra, Za Ak and 2K others
+                        </p>
+                        <p>8K comments 1k shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (3).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Arun abz</h4>
+                            <p>17h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>😪</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (5).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Arya, savad and 18K others
+                        </p>
+                        <p>3K comments 50 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (4).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Amal</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>Wishing Everyone a Merry Christmas 😊</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (6).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Suhail Ismail, Za Ak and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (5).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Shammas</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>🤯</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (8).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> shamil, arjun T and 5K others
+                        </p>
+                        <p>6.6K comments 70 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (14).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>catLover</h4>
+                            <p>13h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>Wishing Everyone a Merry Christmas 😊</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post (9).jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Arathi, Aswin and 115K others
+                        </p>
+                        <p>9.6K comments 65 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (18).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Programmer</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>😩</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post1.jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Agash, sonya and 1K others
+                        </p>
+                        <p>6.6K comments 19 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (12).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Gameplay</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>RTX 4090 Power</p>
+                </div>
+
+                <div class="post">
+                    <video src="./icons/post-video.mp4" autoplay muted controls></video>
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Suhail Ismail, Za Ak and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (7).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Jasmin</h4>
+                            <p>6h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>what🙃</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/post.jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Suhail Ismail, Za Ak and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (8).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>solamon</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>Repeat</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/p1.jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Suhail Ismail, Za Ak and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (9).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>Sharath</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>#Dunki</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/p2.jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> Nihal nassar, Za ckick and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-top">
+                    <div class="post-profile-details">
+                        <div class="post-profile">
+                            <img src="./icons/profile (10).jpg" alt="">
+                        </div>
+                        <div class="profile-details">
+                            <h4>salman saleem</h4>
+                            <p>7h·<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p>Its all about perspective</p>
+                </div>
+
+                <div class="post">
+                    <img src="./icons/p3.jpg" alt="">
+                </div>
+                <div class="post-details">
+                    <div class="liked">
+                        <p><i class="fa-solid fa-thumbs-up like"></i>
+                            <i class="fa-solid fa-heart love"></i> jamalu ,christy and 115K others
+                        </p>
+                        <p>6.6K comments 730 shares</p>
+                    </div>
+                    <div class="reaction">
+                        <div>
+                            <P> <i class="fa-light fa-thumbs-up"></i> Like</P>
+                        </div>
+                        <div>
+                            <p><i class="fa-regular fa-comment"></i> Comment</p>
+                        </div>
+                        <div>
+                            <p><i class="fa-light fa-share"></i> Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="right">
+                <div class="bday">
+                    <h4>Birthdays</h4>
+                    <div class="wish">
+                        <i class="fa-solid fa-gift"></i>
+                        <p>Ebrahim V Mankadavu and 19 others <span>
+                                have their birthdays today.</span></p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="c-head">
+                        <p>contact</p>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (7).jpg" alt="">
+                        <p>Sakhalain NP</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (1).jpg" alt="">
+                        <p>Marzook Kp</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (2).jpg" alt="">
+                        <p>Shammas</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (3).jpg" alt="">
+                        <p>mazna</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (4).jpg" alt="">
+                        <p>Aswin</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (5).jpg" alt="">
+                        <p>james</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (6).jpg" alt="">
+                        <p>john</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (7).jpg" alt="">
+                        <p>Sahood</p>
+                    </div>
+
+                    <div class="c-details">
+                        <img src="./icons/profile (8).jpg" alt="">
+                        <p>Salam saleem</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

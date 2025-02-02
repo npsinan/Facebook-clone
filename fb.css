@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  
+  margin: 0;
+}
+body {
+  background-color: #f0f2f5;
+}
+.fb-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 75%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.fb-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  margin: 0 60px 100px 60px;
+  width: 100%;
+}
+.fb-title h1 {
+  font-size: 60px;
+  color: #0866ff;
+  cursor: pointer;
+}
+.fb-title p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.login {
+  position: relative;
+}
+.form-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  right: 30px;
+  bottom: 80px;
+  border-radius: 10px;
+box-shadow: 1px 2px 6px 2px rgba(28, 28, 28, 0.109);
+  background-color: #fff;
+}
+.login input {
+  margin: 10px 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.blueB {
+  width: 100%;
+  height: 45px;
+  background-color: #1877f2;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.greenB {
+  display: block;
+  width: 200px;
+  height: 45px;
+  background-color: #42b72a;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+.bt-txt1 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+}
+.bt-txt2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+input::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
+}
+input:active{
+  outline: none;
+}
+.forget{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: .5px solid rgb(167, 167, 167);
+    margin-bottom: 20px;
+    
+}
+.forget a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.para{
+    font-weight: bold;
+    
+}
+.msg{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  white-space: nowrap; 
+} 
+.forget a:hover{
+  text-decoration: underline;
+}
